@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-    private String theAllowedOrigins = "https://localhost:3000";
+    private String theAllowedOrigins = "https://react-library-o0d01p93v-faustins-projects-ff79fb94.vercel.app";
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config,

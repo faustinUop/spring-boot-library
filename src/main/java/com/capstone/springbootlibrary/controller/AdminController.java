@@ -6,7 +6,8 @@ import com.capstone.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("https://localhost:3000")
+@CrossOrigin("https://react-library-o0d01p93v-faustins-projects-ff79fb94.vercel.app")
+//@CrossOrigin("https://localhost:3000/")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
