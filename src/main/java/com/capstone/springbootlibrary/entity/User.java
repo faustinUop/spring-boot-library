@@ -1,22 +1,29 @@
 package com.capstone.springbootlibrary.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "student")
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "first_name", nullable = false)
     private String firstName;
-    private String surname;
-    private String studentId;
-    private String email;
-    private String phone;
 
+    @Column(name = "surname", nullable = false)
+    private String surname;
+
+    @Column(name = "student_id", nullable = false)
+    private String studentId;
+
+    @Column(name = "email", nullable = false)
+    private String email;
+
+    @Column(name = "phone")
+    private String phone;
     // Getters and Setters
     public Long getId() {
         return id;
