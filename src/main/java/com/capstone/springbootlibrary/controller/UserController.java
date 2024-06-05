@@ -9,8 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-//@CrossOrigin("https://react-library-o0d01p93v-faustins-projects-ff79fb94.vercel.app")
-@CrossOrigin("https://localhost:3000/")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
